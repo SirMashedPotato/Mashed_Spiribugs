@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Genetics Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<GeneticRim.ExtractableAnimalsList>
+							<defName>GR_TierTwoAnimalsInsectoid_Mashed_Spiribugs</defName>
+							<tier>2</tier>
+							<itemProduced>GR_InsectoidGenetic</itemProduced>
+							<extractableAnimals>
+								<li>Mashed_Spiribug_SpiribugSilver</li>
+								<li>Mashed_Spiribug_SpiribugJade</li>
+								<li>_Mashed_Spiribug_SpiribugGold</li>
+							</extractableAnimals>
+						</GeneticRim.ExtractableAnimalsList>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

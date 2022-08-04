@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<ThingDef ParentName="EggFertBase" Abstract="True" Name="Mashed_Spiribug_EggBase">
+		<description>A fertilized Spiribug egg. If all goes well, it should hatch into a larva. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribugEggs</texPath>
+		</graphicData>
+		<comps>
+		</comps>
+	</ThingDef>
+	<!-- ==========[Silver/Gleaming]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_EggBase">
+		<defName>Mashed_Spiribug_EggSilverFertilized</defName>
+		<label>gleaming spiribug egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribug_SpiribugSilver</hatcherPawn>
+			</li>
+		</comps>
+		<statBases>
+			<MarketValue>5.0</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!-- ==========[Jade/Glistening]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_EggBase">
+		<defName>Mashed_Spiribug_EggJadeFertilized</defName>
+		<label>glistening spiribug egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribug_SpiribugJade</hatcherPawn>
+			</li>
+		</comps>
+		<statBases>
+			<MarketValue>10.0</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!-- ==========[Gold/Gilded]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_EggBase">
+		<defName>Mashed_Spiribug_EggGoldFertilized</defName>
+		<label>gilded spiribug egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribug_SpiribugGold</hatcherPawn>
+			</li>
+		</comps>
+		<statBases>
+			<MarketValue>15.0</MarketValue>
+		</statBases>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Mashed's Spiribugs</name>
+	<packageId>SirMashedPotato.Spiribugs</packageId>
+	<author>SirMashedPotato</author>
+	<supportedVersions>
+    	<li>1.3</li>
+	</supportedVersions>
+	<description>Adds in Spiribirds and petalaces, as well as the items required to craft them.\nSpiribirds are small birds that can be found in any biome. Once tamed, pawns will periodically collect pollen off of their bellies. Spiribird pollen is one of the key ingredients used in creating petalaces.\nPetalaces are small charms, typically attached to ones belt. While petalaces themselves offer no benefit to the wearer, they will attract both wild and tame spiribirds, who will leave behind some pollen on the petalace. The pollen left behind will empower the petalace, granting a small buff to the wearer.\n\n-Supports Vanilla Achievements Expanded.\n- Based on Monster Hunter Rise by Capcom.
+	</description>
+	<modDependencies>
+	  <li>
+        <packageId>SirMashedPotato.Spiribirds</packageId>
+		<displayName>Mashed's Spiribirds</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2839002794</steamWorkshopUrl>
+		<downloadUrl>https://github.com/SirMashedPotato/Mashed_Spiribirds</downloadUrl>
+      </li>
+    </modDependencies>
+	<loadAfter>
+	  <li>brrainz.harmony</li>
+      <li>Ludeon.RimWorld</li>
+      <li>Ludeon.RimWorld.Ideology</li>
+	  <li>Ludeon.RimWorld.Royalty</li>
+	  <li>oskarpotocki.vanillafactionsexpanded.core</li>
+	  <li>vanillaexpanded.achievements</li>
+	  <li>regrowth.botr.core</li>
+	  <li>SirMashedPotato.Spiribirds</li>
+    </loadAfter>
+	<loadBefore>
+	</loadBefore>
+	<incompatibleWith>
+    </incompatibleWith>
+
+</ModMetaData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThoughtDef>
+		<defName>Mashed_Spiribug_SpiribugThought</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>spiribug interaction</label>
+				<description>A spiribug flew up to me.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

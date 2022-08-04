@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
+		<defName>Mashed_Spiribug_AnimalsUnaffectedBySelfTameDef</defName>
+		<unaffectedBySelfTamePawns>
+			<li>Mashed_Spiribug_SpiribugSilver</li>
+			<li>Mashed_Spiribug_SpiribugJade</li>
+			<li>Mashed_Spiribug_SpiribugGold</li>
+		</unaffectedBySelfTamePawns>
+	</AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
+</Defs>
