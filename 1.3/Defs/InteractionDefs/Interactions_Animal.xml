@@ -6,6 +6,7 @@
 		<interactionMote>Mote_Thought</interactionMote>
 		<symbol>Things/Mote/SpeechSymbols/Mashed_SpiribugInteraction</symbol>
 		<workerClass>Mashed_Spiribirds.InteractionWorker_SpiribugInteraction</workerClass>
+		<recipientThought>Mashed_Spiribug_SpiribugThought</recipientThought>
 		<logRulesInitiator>
 			<rulesStrings>
 				<li>r_logentry(p=2)->[INITIATOR_nameDef] [interactadverb] [interacted] [RECIPIENT_nameDef]'s petalace.</li>

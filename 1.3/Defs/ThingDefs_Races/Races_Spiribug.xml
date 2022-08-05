@@ -106,14 +106,10 @@
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<!--
-			<li Class="CompProperties_Milkable">
-				<milkDef>Mashed_Spiribug_PollenGreen</milkDef>
-				<milkIntervalDays>5</milkIntervalDays>
-				<milkAmount>1</milkAmount>
-				<milkFemaleOnly>false</milkFemaleOnly>
+			<li Class="Mashed_Spiribirds.CompProperties_SpiribugMolt">
+				<thingDef>Mashed_Spiribug_DustSilver</thingDef>
+				<recordDef>Mashed_Spiribug_SpiribugInteractions</recordDef>
 			</li>
-			-->
 		</comps>
 	</ThingDef>
 	<PawnKindDef ParentName="Mashed_Spiribug_SpiribugKindBase">
@@ -174,14 +170,10 @@
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<!--
-			<li Class="CompProperties_Milkable">
-				<milkDef>Mashed_Spiribug_PollenGreen</milkDef>
-				<milkIntervalDays>5</milkIntervalDays>
-				<milkAmount>1</milkAmount>
-				<milkFemaleOnly>false</milkFemaleOnly>
+			<li Class="Mashed_Spiribirds.CompProperties_SpiribugMolt">
+				<thingDef>Mashed_Spiribug_DustJade</thingDef>
+				<recordDef>Mashed_Spiribug_SpiribugInteractions</recordDef>
 			</li>
-			-->
 		</comps>
 	</ThingDef>
 	<PawnKindDef ParentName="Mashed_Spiribug_SpiribugKindBase">
@@ -242,14 +234,10 @@
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<!--
-			<li Class="CompProperties_Milkable">
-				<milkDef>Mashed_Spiribug_PollenGreen</milkDef>
-				<milkIntervalDays>5</milkIntervalDays>
-				<milkAmount>1</milkAmount>
-				<milkFemaleOnly>false</milkFemaleOnly>
+			<li Class="Mashed_Spiribirds.CompProperties_SpiribugMolt">
+				<thingDef>Mashed_Spiribug_DustGold</thingDef>
+				<recordDef>Mashed_Spiribug_SpiribugInteractions</recordDef>
 			</li>
-			-->
 		</comps>
 	</ThingDef>
 	<PawnKindDef ParentName="Mashed_Spiribug_SpiribugKindBase">
