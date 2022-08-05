@@ -2,7 +2,7 @@
 <Defs>
 	<!-- ==========[Base]========== -->
 	<ThingDef ParentName="EggFertBase" Abstract="True" Name="Mashed_Spiribug_EggBase">
-		<description>A fertilized Spiribug egg. If all goes well, it should hatch into a larva. It can be eaten raw, but it's much better cooked.</description>
+		<description>A fertilized Spiribug egg. If all goes well, it should hatch into a spiribug larva. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Mashed_SpiribugEggs</texPath>
 		</graphicData>
