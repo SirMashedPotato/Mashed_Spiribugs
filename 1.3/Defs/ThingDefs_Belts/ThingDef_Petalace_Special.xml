@@ -15,7 +15,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Luxurious">
 		<defName>Mashed_Spiribug_ApparelPetalaceSilver</defName>
 		<label>petalace (gleaming)</label>
-		<description>A petalace imbued with gleaming spiribug dust. The effect of all pollen deposited by spiribirds is slightly increased, causing more pollen buildup per interaction. Additionally the molt progress of gleaming spiribugs is increased.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<description>A petalace imbued with gleaming spiribug dust. The effect of all pollen deposited by spiribirds is slightly increased, causing more pollen buildup per interaction. Additionally the moult progress of gleaming spiribugs is increased.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -46,6 +46,7 @@
 					</li>
 				</pollenAffinity>
 				<spiribugKind>Mashed_Spiribug_SpiribugSilver</spiribugKind>
+				<extraMoltGain>2</extraMoltGain>
 			</li>
 		</modExtensions>
 		<graphicData>
@@ -61,7 +62,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Luxurious">
 		<defName>Mashed_Spiribug_ApparelPetalaceJade</defName>
 		<label>petalace (glistening)</label>
-		<description>A petalace imbued with glistening spiribug dust. The effect of all pollen deposited by spiribirds is slightly increased, causing more pollen buildup per interaction. Additionally the molt progress of glistening spiribugs is increased.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<description>A petalace imbued with glistening spiribug dust. The effect of all pollen deposited by spiribirds is slightly increased, causing more pollen buildup per interaction. Additionally the moult progress of glistening spiribugs is increased.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -92,6 +93,7 @@
 					</li>
 				</pollenAffinity>
 				<spiribugKind>Mashed_Spiribug_SpiribugJade</spiribugKind>
+				<extraMoltGain>2</extraMoltGain>
 			</li>
 		</modExtensions>
 		<graphicData>
@@ -107,7 +109,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Luxurious">
 		<defName>Mashed_Spiribug_ApparelPetalaceGold</defName>
 		<label>petalace (gilded)</label>
-		<description>A petalace imbued with gilded spiribug dust. The effect of all pollen deposited by spiribirds is slightly increased, causing more pollen buildup per interaction. Additionally the molt progress of gilded spiribugs is increased.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<description>A petalace imbued with gilded spiribug dust. The effect of all pollen deposited by spiribirds is slightly increased, causing more pollen buildup per interaction. Additionally the moult progress of gilded spiribugs is increased.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -138,6 +140,7 @@
 					</li>
 				</pollenAffinity>
 				<spiribugKind>Mashed_Spiribug_SpiribugGold</spiribugKind>
+				<extraMoltGain>2</extraMoltGain>
 			</li>
 		</modExtensions>
 		<graphicData>
