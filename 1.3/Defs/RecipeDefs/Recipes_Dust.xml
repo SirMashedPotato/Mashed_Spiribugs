@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<RecipeDef Name="Mashed_Spiribug_MeltDustBase" Abstract="True">
+		<jobString>Creating spiribug pollen.</jobString>
+		<workAmount>250</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Mashed_Spiribird_TablePetalace</li>
+		</recipeUsers>
+		<workSkill>Crafting</workSkill>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+		</skillRequirements>
+		<researchPrerequisite>Mashed_Spiribug_SpiribugDustProcessing</researchPrerequisite>
+	</RecipeDef>
+	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBase" Name="Mashed_Spiribug_MeltDustBulkBase" Abstract="True">
+		<workAmount>500</workAmount>
+	</RecipeDef>
+	<!-- ==========[Silver/Gleaming]========== -->
+	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBase">
+		<defName>Mashed_Spiribug_MeltDustSilver</defName>
+		<label>melt gleaming spiribug dust</label>
+		<description>Create 1 silver from 4 gleaming spiribug dust.</description>
+		<jobString>Melting gleaming spirbug dust.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribug_DustSilver</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribug_DustSilver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Silver>1</Silver>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Silver/Gleaming Bulk]========== -->
+	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBulkBase">
+		<defName>Mashed_Spiribug_MeltDustSilver_Bulk</defName>
+		<label>melt gleaming spiribug dust x4</label>
+		<description>Create 4 silver from 16 gleaming spiribug dust.</description>
+		<jobString>Melting gleaming spirbug dust.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribug_DustSilver</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribug_DustSilver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Silver>4</Silver>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Jade/Glistening]========== -->
+	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBase">
+		<defName>Mashed_Spiribug_MeltDustJade</defName>
+		<label>melt glistening spiribug dust</label>
+		<description>Create 1 jade from 4 glistening spiribug dust.</description>
+		<jobString>Melting glistening spirbug dust.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribug_DustJade</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribug_DustJade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Jade>1</Jade>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Jade/Glistening Bulk]========== -->
+	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBulkBase">
+		<defName>Mashed_Spiribug_MeltDustJade_Bulk</defName>
+		<label>melt glistening spiribug dust x4</label>
+		<description>Create 4 jade from 16 glistening spiribug dust.</description>
+		<jobString>Melting glistening spirbug dust.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribug_DustJade</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribug_DustJade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Jade>4</Jade>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Gold/Gleaming]========== -->
+	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBase">
+		<defName>Mashed_Spiribug_MeltDustGold</defName>
+		<label>melt gilded spiribug dust</label>
+		<description>Create 1 gold from 4 gilded spiribug dust.</description>
+		<jobString>Melting gilded spirbug dust.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribug_DustGold</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribug_DustGold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gold>1</Gold>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Gold/Gleaming Bulk]========== -->
+	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBulkBase">
+		<defName>Mashed_Spiribug_MeltDustGold_Bulk</defName>
+		<label>melt gilded spiribug dust x4</label>
+		<description>Create 4 gold from 16 gilded spiribug dust.</description>
+		<jobString>Melting gilded spirbug dust.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribug_DustGold</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribug_DustGold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gold>4</Gold>
+		</products>
+	</RecipeDef>
+</Defs>
