@@ -6,7 +6,7 @@
 	<supportedVersions>
     	<li>1.3</li>
 	</supportedVersions>
-	<description>An addon for Spiribirds, adds in Spiribugs, as wll as three additional petalaces.\nSpiribugs are small bugs that can be found in any biome. They will interact with pawns wearing petalaces, causing them to progress towards their next moult. Moulted spiribugs dust is worth a fair amount, and can be turned into some useful resources.\n\n-Supports Vanilla Achievements Expanded.\n- Based on Monster Hunter Rise by Capcom.
+	<description>An addon for Spiribirds, adds in Spiribugs, as well as three additional petalaces.\nSpiribugs are small bugs that can be found in any biome. They will interact with pawns wearing petalaces, causing them to progress towards their next moult. Moulted spiribugs dust is worth a fair amount, and can be turned into some useful resources.\n\n-Supports Vanilla Achievements Expanded.\n- Based on Monster Hunter Rise by Capcom.
 	</description>
 	<modDependencies>
 	  <li>
