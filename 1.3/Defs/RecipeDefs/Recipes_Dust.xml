@@ -2,7 +2,7 @@
 <Defs>
 	<!-- ==========[Base]========== -->
 	<RecipeDef Name="Mashed_Spiribug_MeltDustBase" Abstract="True">
-		<jobString>Creating spiribug pollen.</jobString>
+		<jobString>Melting spiribug dust.</jobString>
 		<workAmount>250</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
