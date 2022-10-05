@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Row 2]========== -->
+	<!-- ==========[Petalace branch, metallic petalaces]========== -->
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribug_LuxuriousPetalaceCrafting</defName>
+		<label>luxurious petalace crafting</label>
+		<description>Learn how to craft luxurious petalaces at the petalace crafting bench.\n\nThese petalaces have a lower affinity towards all spiribird pollen colours than the prism petalace, but boost the moult progress of their respective spiribug when one interacts with the petalace.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+		<prerequisites>
+			<li>Mashed_Spiribird_SpecialPetalaceCrafting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!-- ==========[Row 2]========== -->
+	<!-- ==========[Processing spiribug dust]========== -->
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribug_SpiribugDustProcessing</defName>
+		<label>spiribug dust processing</label>
+		<description>Learn how to properly melt down spiribug dust into useful minerals.\n\nThis process is somewhat wasteful in terms of potential value, as spirbug dust is more valuable in its natural form.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+		<prerequisites>
+			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

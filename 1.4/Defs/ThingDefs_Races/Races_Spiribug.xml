@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Bases]========== -->
+	<ThingDef ParentName="AnimalThingBase" Name="Mashed_Spiribug_SpiribugThingBase" Abstract="True">
+		<description>A small insect, with a brilliant metallic shell. Highly adaptable, spiribugs are found almost everywhere, you just need to know where to look for them.\n\nPossibly the result of a genetic experiment, much like spiribirds. Although some consider them to simply be a species of Coccinellidae, that has evolved a symbiotic relationship with the spiribush over time.\n\nSpiribugs are often found around spiribushes, as their diet primarily consists of the tiny insects that can be found on them. These insects can also be found on petalaces, causing spiribugs to interact with them. The pollen infused within petalaces will cause spiribugs to begin moulting their outer shell. Once they've feed from petalaces enough times, the outer shell will turn into a fine, and somewhat valuable, powder.\n\nBoth wild and tame spiribugs are attracted to petalaces. They will occasionally visit anyone wearing a petalace, increasing their moult progress in the process.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_Spiribush</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="MorrowRim.ExtendedRaceProperties" MayRequire="SirMashedPotato.MorrowRim">
+				<ashResistant>Resistant</ashResistant>
+			</li>
+		</modExtensions>
+		<statBases>
+			<MoveSpeed>2.0</MoveSpeed>
+			<MarketValue>75</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<FilthRate>1</FilthRate>
+		</statBases>
+		<comps>
+			<li Class="AnimalBehaviours.CompProperties_Floating" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+			</li>
+		</comps>
+		<race>
+			<body>BeetleLike</body>
+			<baseHungerRate>0.15</baseHungerRate>
+			<baseBodySize>0.1</baseBodySize>
+			<baseHealthScale>0.15</baseHealthScale>
+			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
+			<trainability>None</trainability>
+			<wildness>0.5</wildness>
+			<roamMtbDays>7</roamMtbDays>
+			<mateMtbHours>8</mateMtbHours>
+			<lifeExpectancy>1.5</lifeExpectancy>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+			<li>Mashed_Spiribug_Spiribug</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<label>mandibles</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase" Name="Mashed_Spiribug_SpiribugKindBase" Abstract="True">
+		<combatPower>1</combatPower>
+		<ecoSystemWeight>0.1</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
+		<wildGroupSize>1~2</wildGroupSize>
+	</PawnKindDef>
+	<!-- ==========[Silver/Gleaming]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_SpiribugThingBase">
+		<defName>Mashed_Spiribug_SpiribugSilver</defName>
+		<label>gleaming spiribug</label>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribug_DustSilver</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+		</modExtensions>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribug_EggSilverFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+			</li>
+			<li Class="Mashed_Spiribirds.CompProperties_SpiribugMolt">
+				<thingDef>Mashed_Spiribug_DustSilver</thingDef>
+				<recordDef>Mashed_Spiribug_SpiribugInteractions</recordDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribug_SpiribugKindBase">
+		<defName>Mashed_Spiribug_SpiribugSilver</defName>
+		<label>gleaming spiribug</label>
+		<race>Mashed_Spiribug_SpiribugSilver</race>
+		<lifeStages>
+			<li>
+				<label>gleaming spiribug larva</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gleaming</texPath>
+					<drawSize>0.45</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gleaming</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gleaming</texPath>
+					<drawSize>0.87</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.87</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<!-- ==========[Jade/Glistening]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_SpiribugThingBase">
+		<defName>Mashed_Spiribug_SpiribugJade</defName>
+		<label>glistening spiribug</label>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribug_DustJade</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+		</modExtensions>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribug_EggJadeFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+			</li>
+			<li Class="Mashed_Spiribirds.CompProperties_SpiribugMolt">
+				<thingDef>Mashed_Spiribug_DustJade</thingDef>
+				<recordDef>Mashed_Spiribug_SpiribugInteractions</recordDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribug_SpiribugKindBase">
+		<defName>Mashed_Spiribug_SpiribugJade</defName>
+		<label>glistening spiribug</label>
+		<race>Mashed_Spiribug_SpiribugJade</race>
+		<lifeStages>
+			<li>
+				<label>glistening spiribug larva</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Glistening</texPath>
+					<drawSize>0.45</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Glistening</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Glistening</texPath>
+					<drawSize>0.87</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.87</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<!-- ==========[Gold/Gilded]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_SpiribugThingBase">
+		<defName>Mashed_Spiribug_SpiribugGold</defName>
+		<label>gilded spiribug</label>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribug_DustGold</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+		</modExtensions>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribug_EggGoldFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+			</li>
+			<li Class="Mashed_Spiribirds.CompProperties_SpiribugMolt">
+				<thingDef>Mashed_Spiribug_DustGold</thingDef>
+				<recordDef>Mashed_Spiribug_SpiribugInteractions</recordDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribug_SpiribugKindBase">
+		<defName>Mashed_Spiribug_SpiribugGold</defName>
+		<label>gilded spiribug</label>
+		<race>Mashed_Spiribug_SpiribugGold</race>
+		<lifeStages>
+			<li>
+				<label>gilded spiribug larva</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gilded</texPath>
+					<drawSize>0.45</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gilded</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gilded</texPath>
+					<drawSize>0.87</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated</texPath>
+					<drawSize>0.87</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>
