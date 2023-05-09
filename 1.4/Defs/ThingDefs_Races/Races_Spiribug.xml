@@ -35,6 +35,7 @@
 			<lifeExpectancy>1.5</lifeExpectancy>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<canBePredatorPrey>false</canBePredatorPrey>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
