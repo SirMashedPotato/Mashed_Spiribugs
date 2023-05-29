@@ -10,7 +10,7 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>4.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>SMP_ResearchTab</tab>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_SpecialPetalaceCrafting</li>
 		</prerequisites>
@@ -25,7 +25,7 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>1.00</researchViewY>
-		<tab>SMP_ResearchTab</tab>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
 		</prerequisites>

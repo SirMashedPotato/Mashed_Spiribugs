@@ -20,7 +20,7 @@
 							<label>Gleaming</label>
 							<description>Tame your first gleaming spiribug</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<requireAll>false</requireAll>
 								<kindDefs>
@@ -41,7 +41,7 @@
 							<label>Glistening</label>
 							<description>Tame your first glistening spiribug</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<requireAll>false</requireAll>
 								<kindDefs>
@@ -62,7 +62,7 @@
 							<label>Gilded</label>
 							<description>Tame your first gilded spiribug</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<requireAll>false</requireAll>
 								<kindDefs>
@@ -83,7 +83,7 @@
 							<label>Spiribug Acquaintance</label>
 							<description>Have a spiribug interact with a pawn wearing a petalace for the first time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.RecordEventTracker">
 								<def>Mashed_Spiribug_SpiribugInteractions</def>
 								<count>1</count>
@@ -97,7 +97,7 @@
 							<label>Spiribug Friend</label>
 							<description>Have a spiribug interact with a pawn wearing a petalace for the tenth time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.RecordEventTracker">
 								<def>Mashed_Spiribug_SpiribugInteractions</def>
 								<count>10</count>
@@ -111,7 +111,7 @@
 							<label>Spiribug Magnet</label>
 							<description>Have a spiribug interact with a pawn wearing a petalace for the 25th time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.RecordEventTracker">
 								<def>Mashed_Spiribug_SpiribugInteractions</def>
 								<count>25</count>
