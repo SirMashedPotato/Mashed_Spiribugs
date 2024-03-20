@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<ThingDef ParentName="ResourceBase" Name="Mashed_Spiribug_DustBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<statBases>
+			<Mass>0.008</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+	<!-- ==========[Silver/Gleaming]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_DustBase">
+		<defName>Mashed_Spiribug_DustSilver</defName>
+		<label>gleaming spiribug dust</label>
+		<description>Dust left behind by a gleaming spiribug, somewhat valuable. Collect enough of it and you may be able to melt it down into pure silver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribug_SpiribugSilver</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribugShell_Gleaming</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Jade/Glistening]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_DustBase">
+		<defName>Mashed_Spiribug_DustJade</defName>
+		<label>glistening spiribug dust</label>
+		<description>Dust left behind by a glistening spiribug, moderately valuable. Collect enough of it and you may be able to melt it down into pure jade.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribug_SpiribugJade</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2.4</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribugShell_Glistening</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Gold/Gilded]========== -->
+	<ThingDef ParentName="Mashed_Spiribug_DustBase">
+		<defName>Mashed_Spiribug_DustGold</defName>
+		<label>gilded spiribug dust</label>
+		<description>Dust left behind by a gilded spiribug, rather valuable. Collect enough of it and you may be able to melt it down into pure gold.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribug_SpiribugGold</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>3.8</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribugShell_Gilded</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

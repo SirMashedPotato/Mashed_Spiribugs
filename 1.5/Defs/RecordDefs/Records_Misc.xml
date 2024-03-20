@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecordDef>
+		<defName>Mashed_Spiribug_SpiribugInteractions</defName>
+		<label>spiribug interactions</label>
+		<description>The number of a spiribug has interacted with me.</description>
+		<type>Int</type>
+	</RecordDef>
+</Defs>
