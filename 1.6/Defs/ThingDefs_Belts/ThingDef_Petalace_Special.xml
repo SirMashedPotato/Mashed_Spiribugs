@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceBase_Luxurious]========== -->
 	<ThingDef Name="Mashed_Spiribird_ApparelPetalaceBase_Luxurious" ParentName="Mashed_Spiribird_ApparelPetalaceBase" Abstract="True">
 		<recipeMaker>
 			<skillRequirements Inherit="False">
@@ -11,7 +11,7 @@
 			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>
-	<!-- ==========[Silver/Gleaming]========== -->
+	<!-- ==========[Mashed_Spiribug_ApparelPetalaceSilver]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Luxurious">
 		<defName>Mashed_Spiribug_ApparelPetalaceSilver</defName>
 		<label>petalace (gleaming)</label>
@@ -61,7 +61,7 @@
 			<Mashed_Spiribug_DustSilver>8</Mashed_Spiribug_DustSilver>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Jade/Glistening]========== -->
+	<!-- ==========[Mashed_Spiribug_ApparelPetalaceJade]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Luxurious">
 		<defName>Mashed_Spiribug_ApparelPetalaceJade</defName>
 		<label>petalace (glistening)</label>
@@ -111,7 +111,7 @@
 			<Mashed_Spiribug_DustJade>8</Mashed_Spiribug_DustJade>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Gold/Gilded]========== -->
+	<!-- ==========[Mashed_Spiribug_ApparelPetalaceGold]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Luxurious">
 		<defName>Mashed_Spiribug_ApparelPetalaceGold</defName>
 		<label>petalace (gilded)</label>

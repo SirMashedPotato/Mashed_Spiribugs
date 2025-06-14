@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribug_MeltDustBase]========== -->
 	<RecipeDef Name="Mashed_Spiribug_MeltDustBase" Abstract="True">
 		<jobString>Melting spiribug dust.</jobString>
 		<workAmount>250</workAmount>
@@ -19,7 +19,7 @@
 	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBase" Name="Mashed_Spiribug_MeltDustBulkBase" Abstract="True">
 		<workAmount>500</workAmount>
 	</RecipeDef>
-	<!-- ==========[Silver/Gleaming]========== -->
+	<!-- ==========[Mashed_Spiribug_MeltDustSilver]========== -->
 	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBase">
 		<defName>Mashed_Spiribug_MeltDustSilver</defName>
 		<label>melt gleaming spiribug dust</label>
@@ -44,7 +44,7 @@
 			<Silver>1</Silver>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Silver/Gleaming Bulk]========== -->
+	<!-- ==========[Mashed_Spiribug_MeltDustSilver_Bulk]========== -->
 	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBulkBase">
 		<defName>Mashed_Spiribug_MeltDustSilver_Bulk</defName>
 		<label>melt gleaming spiribug dust x4</label>
@@ -69,7 +69,7 @@
 			<Silver>4</Silver>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Jade/Glistening]========== -->
+	<!-- ==========[Mashed_Spiribug_MeltDustJade]========== -->
 	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBase">
 		<defName>Mashed_Spiribug_MeltDustJade</defName>
 		<label>melt glistening spiribug dust</label>
@@ -94,7 +94,7 @@
 			<Jade>1</Jade>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Jade/Glistening Bulk]========== -->
+	<!-- ==========[Mashed_Spiribug_MeltDustJade_Bulk]========== -->
 	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBulkBase">
 		<defName>Mashed_Spiribug_MeltDustJade_Bulk</defName>
 		<label>melt glistening spiribug dust x4</label>
@@ -119,7 +119,7 @@
 			<Jade>4</Jade>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Gold/Gleaming]========== -->
+	<!-- ==========[Mashed_Spiribug_MeltDustGold]========== -->
 	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBase">
 		<defName>Mashed_Spiribug_MeltDustGold</defName>
 		<label>melt gilded spiribug dust</label>
@@ -144,7 +144,7 @@
 			<Gold>1</Gold>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Gold/Gleaming Bulk]========== -->
+	<!-- ==========[Mashed_Spiribug_MeltDustGold_Bulk]========== -->
 	<RecipeDef ParentName="Mashed_Spiribug_MeltDustBulkBase">
 		<defName>Mashed_Spiribug_MeltDustGold_Bulk</defName>
 		<label>melt gilded spiribug dust x4</label>

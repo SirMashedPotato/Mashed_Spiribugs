@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribug_DustBase]========== -->
 	<ThingDef ParentName="ResourceBase" Name="Mashed_Spiribug_DustBase" Abstract="True">
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -19,7 +19,7 @@
 		</thingCategories>
 		<stackLimit>75</stackLimit>
 	</ThingDef>
-	<!-- ==========[Silver/Gleaming]========== -->
+	<!-- ==========[Mashed_Spiribug_DustSilver]========== -->
 	<ThingDef ParentName="Mashed_Spiribug_DustBase">
 		<defName>Mashed_Spiribug_DustSilver</defName>
 		<label>gleaming spiribug dust</label>
@@ -34,7 +34,7 @@
 			<texPath>Things/Item/Resource/Mashed_SpiribugShell_Gleaming</texPath>
 		</graphicData>
 	</ThingDef>
-	<!-- ==========[Jade/Glistening]========== -->
+	<!-- ==========[Mashed_Spiribug_DustJade]========== -->
 	<ThingDef ParentName="Mashed_Spiribug_DustBase">
 		<defName>Mashed_Spiribug_DustJade</defName>
 		<label>glistening spiribug dust</label>
@@ -49,7 +49,7 @@
 			<texPath>Things/Item/Resource/Mashed_SpiribugShell_Glistening</texPath>
 		</graphicData>
 	</ThingDef>
-	<!-- ==========[Gold/Gilded]========== -->
+	<!-- ==========[Mashed_Spiribug_DustGold]========== -->
 	<ThingDef ParentName="Mashed_Spiribug_DustBase">
 		<defName>Mashed_Spiribug_DustGold</defName>
 		<label>gilded spiribug dust</label>

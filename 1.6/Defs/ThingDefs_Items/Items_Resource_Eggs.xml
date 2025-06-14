@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribug_EggBase]========== -->
 	<ThingDef ParentName="EggFertBase" Abstract="True" Name="Mashed_Spiribug_EggBase">
 		<description>A fertilized Spiribug egg. If all goes well, it should hatch into a spiribug larva. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Mashed_SpiribugEggs</texPath>
 		</graphicData>
-		<comps>
-		</comps>
 	</ThingDef>
-	<!-- ==========[Silver/Gleaming]========== -->
+	<!-- ==========[Mashed_Spiribug_EggUnfertilized]========== -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>Mashed_Spiribug_EggUnfertilized</defName>
+		<label>spiribug egg (unfert.)</label>
+		<description>An unfertilized Spiribug egg. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribugEggs</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>3</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!-- ==========[Mashed_Spiribug_EggSilverFertilized]========== -->
 	<ThingDef ParentName="Mashed_Spiribug_EggBase">
 		<defName>Mashed_Spiribug_EggSilverFertilized</defName>
 		<label>gleaming spiribug egg (fert.)</label>
@@ -20,10 +30,10 @@
 			</li>
 		</comps>
 		<statBases>
-			<MarketValue>5.0</MarketValue>
+			<MarketValue>5</MarketValue>
 		</statBases>
 	</ThingDef>
-	<!-- ==========[Jade/Glistening]========== -->
+	<!-- ==========[Mashed_Spiribug_EggJadeFertilized]========== -->
 	<ThingDef ParentName="Mashed_Spiribug_EggBase">
 		<defName>Mashed_Spiribug_EggJadeFertilized</defName>
 		<label>glistening spiribug egg (fert.)</label>
@@ -34,10 +44,10 @@
 			</li>
 		</comps>
 		<statBases>
-			<MarketValue>10.0</MarketValue>
+			<MarketValue>10</MarketValue>
 		</statBases>
 	</ThingDef>
-	<!-- ==========[Gold/Gilded]========== -->
+	<!-- ==========[Mashed_Spiribug_EggGoldFertilized]========== -->
 	<ThingDef ParentName="Mashed_Spiribug_EggBase">
 		<defName>Mashed_Spiribug_EggGoldFertilized</defName>
 		<label>gilded spiribug egg (fert.)</label>
@@ -48,7 +58,7 @@
 			</li>
 		</comps>
 		<statBases>
-			<MarketValue>15.0</MarketValue>
+			<MarketValue>15</MarketValue>
 		</statBases>
 	</ThingDef>
 </Defs>

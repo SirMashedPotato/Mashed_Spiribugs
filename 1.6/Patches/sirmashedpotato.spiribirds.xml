@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- ==========[Mashed_Spiribird_Spiribush/descriptionHyperlinks]========== -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Spiribird_Spiribush"]/descriptionHyperlinks</xpath>
+		<value>
+			<ThingDef>Mashed_Spiribug_SpiribugSilver</ThingDef>
+			<ThingDef>Mashed_Spiribug_SpiribugJade</ThingDef>
+			<ThingDef>Mashed_Spiribug_SpiribugGold</ThingDef>
+		</value>
+	</Operation>
+	<!-- ==========[Mashed_Spiribird_Spiribush/modExtensions]========== -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Spiribird_Spiribush"]/modExtensions/li[@Class="Mashed_Spiribirds.SpiribushProperties"]/spirbushSpawns</xpath>
+		<value>
+			<Mashed_Spiribug_SpiribugSilver>5</Mashed_Spiribug_SpiribugSilver>
+			<Mashed_Spiribug_SpiribugJade>3</Mashed_Spiribug_SpiribugJade>
+			<Mashed_Spiribug_SpiribugGold>1</Mashed_Spiribug_SpiribugGold>
+		</value>
+	</Operation>
+	<!-- ==========[Mashed_Spiribird_FeedFromSpiribush]========== -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThinkTreeDef[defName="Mashed_Spiribird_FeedFromSpiribush"]/thinkRoot/animalDefs</xpath>
+		<value>
+			<li>Mashed_Spiribug_SpiribugSilver</li>
+			<li>Mashed_Spiribug_SpiribugJade</li>
+			<li>Mashed_Spiribug_SpiribugGold</li>
+		</value>
+	</Operation>
+	<!-- ==========[Mashed_Spiribird_InteractWithPetalace]========== -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThinkTreeDef[defName="Mashed_Spiribird_InteractWithPetalace"]/thinkRoot/animalDefs</xpath>
+		<value>
+			<li>Mashed_Spiribug_SpiribugSilver</li>
+			<li>Mashed_Spiribug_SpiribugJade</li>
+			<li>Mashed_Spiribug_SpiribugGold</li>
+		</value>
+	</Operation>
+</Patch>
