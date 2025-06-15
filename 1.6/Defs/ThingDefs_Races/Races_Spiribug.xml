@@ -28,6 +28,10 @@
 			<mateMtbHours>8</mateMtbHours>
 			<lifeExpectancy>1.5</lifeExpectancy>
 			<useMeatFrom>Megaspider</useMeatFrom>
+			<flightStartChanceOnJobStart>1</flightStartChanceOnJobStart>
+			<canFlyIntoMap>true</canFlyIntoMap>
+			<canLeaveMapFlying>true</canLeaveMapFlying>
+			<leaveMapOnFleeChance>0.25</leaveMapOnFleeChance>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<canBecomeShambler>false</canBecomeShambler>
@@ -85,6 +89,8 @@
 		<ecoSystemWeight>0.1</ecoSystemWeight>
 		<canArriveManhunter>false</canArriveManhunter>
 		<wildGroupSize>1~2</wildGroupSize>
+		<flyingAnimationFrameCount>5</flyingAnimationFrameCount>
+		<flyingAnimationTicksPerFrame>3</flyingAnimationTicksPerFrame>
 	</PawnKindDef>
 	<!-- ==========[Mashed_Spiribug_SpiribugSilver]========== -->
 	<ThingDef ParentName="Mashed_Spiribug_SpiribugThingBase">
@@ -93,8 +99,6 @@
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribug_DustSilver</ThingDef>
 		</descriptionHyperlinks>
-		<modExtensions>
-		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribug_EggSilverFertilized</eggFertilizedDef>
@@ -114,6 +118,7 @@
 		<defName>Mashed_Spiribug_SpiribugSilver</defName>
 		<label>gleaming spiribug</label>
 		<race>Mashed_Spiribug_SpiribugSilver</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>gleaming spiribug larva</label>
@@ -159,8 +164,6 @@
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribug_DustJade</ThingDef>
 		</descriptionHyperlinks>
-		<modExtensions>
-		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribug_EggJadeFertilized</eggFertilizedDef>
@@ -180,6 +183,7 @@
 		<defName>Mashed_Spiribug_SpiribugJade</defName>
 		<label>glistening spiribug</label>
 		<race>Mashed_Spiribug_SpiribugJade</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>glistening spiribug larva</label>
@@ -225,8 +229,6 @@
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribug_DustGold</ThingDef>
 		</descriptionHyperlinks>
-		<modExtensions>
-		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribug_EggGoldFertilized</eggFertilizedDef>
@@ -246,6 +248,7 @@
 		<defName>Mashed_Spiribug_SpiribugGold</defName>
 		<label>gilded spiribug</label>
 		<race>Mashed_Spiribug_SpiribugGold</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>gilded spiribug larva</label>
