@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+		<defName>Mashed_Spiribug_DisabledQuestAnimals</defName>
+		<disabledFromQuestsPawns>
+			<li>Mashed_Spiribug_SpiribugSilver</li>
+			<li>Mashed_Spiribug_SpiribugJade</li>
+			<li>Mashed_Spiribug_SpiribugGold</li>
+		</disabledFromQuestsPawns>
+	</VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+</Defs>
