@@ -1,0 +1,90 @@
+ManifestFileVersion: 0
+CRC: 1446955761
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fa9260965e5a81f0596af3de804af8e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fa9260965e5a81f0596af3de804af8e9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_4_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_1_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Item/Resource/Mashed_SpiribugEggs/Mashed_SpiribugEggs_a.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_2_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_3_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_5_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_1_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/UI/Mashed_Spiribugs_ModIcon.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Item/Resource/Mashed_SpiribugShell_Gilded.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gilded_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_3_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_3_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_1_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_2_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_5_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_1_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Achievements/Mashed_AchievementSpiribugs_TamerJade.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Item/Resource/Mashed_SpiribugEggs/Mashed_SpiribugEggs_b.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_1_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_5_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Glistening.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_3_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_2_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_5_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_3_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Achievements/Mashed_AchievementSpiribugs_InteractMore.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Glistening_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gilded_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_5_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Item/Resource/Mashed_SpiribugShell_Glistening.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_2_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_4_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Achievements/Mashed_AchievementSpiribugs_InteractFirst.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_4_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_2_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_4_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_3_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_1_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Mote/SpeechSymbols/Mashed_SpiribugInteraction.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gleaming_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Item/Resource/Mashed_SpiribugShell_Gleaming.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Gilded.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_1_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_4_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_3_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Dessicated_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_4_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_5_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Achievements/Mashed_AchievementSpiribugs_TamerGold.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Glistening_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_1_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_5_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gleaming_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_2_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_2_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_5_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Achievements/Mashed_AchievementSpiribugs_TamerSilver.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_1_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Glistening_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_5_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_3_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gleaming_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_4_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GildedFlying_4_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_4_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Gleaming.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Mashed_Spiribug_Gilded_south.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_2_east.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Achievements/Mashed_AchievementSpiribugs_InteractMany.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GleamingFlying_2_north.png
+- Assets/Data/sirmashedpotato.spiribugs/Textures/Things/Pawn/Animal/Mashed_Spiritbug/Flying/Mashed_Spiribug_GlisteningFlying_3_east.png
+Dependencies: []

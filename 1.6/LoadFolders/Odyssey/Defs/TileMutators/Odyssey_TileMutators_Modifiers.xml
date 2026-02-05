@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Spiribug_SpiribugHabitat]==========-->
+	<TileMutatorDef ParentName="Mashed_Spiribird_SpiribirdHabitatBase">
+		<defName>Mashed_Spiribug_SpiribugHabitat</defName>
+		<label>spiribug gathering</label>
+		<description>This area attracts spiribugs in great numbers.</description>
+		<workerClass>Mashed_Spiribirds.TileMutatorWorker_SpiribugHabitat</workerClass>
+	</TileMutatorDef>
+</Defs>
